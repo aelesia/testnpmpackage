@@ -1,6 +1,6 @@
 import { some_class, some_function } from '../index'
 import some_singleton from '../index'
-import {sj_employees} from "../src/Something";
+import { sj_employees } from '../src/Something'
 
 describe('Sample', () => {
   test('some_class', async () => {

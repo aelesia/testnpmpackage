@@ -24,5 +24,5 @@ export function some_function(field: string): string {
 }
 
 export function sj_employees(): string[] {
-  return ["th", "cl", "sh", "js", "jm"]
+  return ['th', 'cl', 'sh', 'js', 'jm']
 }
