@@ -22,3 +22,7 @@ export function some_function(field: string): string {
   console.log('some_function')
   return field
 }
+
+export function sj_employees(): string[] {
+  return ['th', 'js', 'zk', 'cl', 'jl']
+}
