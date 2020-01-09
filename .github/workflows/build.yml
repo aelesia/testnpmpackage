@@ -48,6 +48,12 @@ jobs:
 
       - run: yarn run test_coverage
 
+      - uses: actions/upload-artifact@master
+        with:
+          name: test_report
+          path: coverage/lcov-report
+
+
   lint:
     if: contains(github.ref, 'refs/heads/develop') || contains(github.ref, 'refs/heads/release') || contains(github.ref, 'refs/heads/hotfix') || contains(github.ref, 'refs/heads/ci')
     needs: [compile,test]
