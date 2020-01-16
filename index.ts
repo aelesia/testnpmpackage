@@ -1,2 +1,2 @@
-export { some_function, some_class } from './src/Something'
+export { some_function, some_class, bnet_id } from './src/Something'
 export { default } from './src/Something'

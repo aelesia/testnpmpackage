@@ -1,6 +1,6 @@
 import { some_class, some_function } from '../index'
 import some_singleton from '../index'
-import { sj_employees } from '../src/Something'
+import { sj_employees, bnet_id } from '../src/Something'
 
 describe('Sample', () => {
   test('some_class', async () => {
@@ -19,4 +19,9 @@ describe('Sample', () => {
   test('hello', async () => {
     expect(sj_employees().length).toEqual(5)
   })
+
+  test('bnet', async ()=> {
+    expect(bnet_id().length).toEqual(2)
+  })
+
 })

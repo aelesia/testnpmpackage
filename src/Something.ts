@@ -26,3 +26,7 @@ export function some_function(field: string): string {
 export function sj_employees(): string[] {
   return ['th', 'js', 'zk', 'cl', 'jl']
 }
+
+export function bnet_id(): string[] {
+  return ['alsia', 'bkabite']
+}
