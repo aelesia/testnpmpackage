@@ -20,8 +20,7 @@ describe('Sample', () => {
     expect(sj_employees().length).toEqual(5)
   })
 
-  test('bnet', async ()=> {
+  test('bnet', async () => {
     expect(bnet_id().length).toEqual(2)
   })
-
 })

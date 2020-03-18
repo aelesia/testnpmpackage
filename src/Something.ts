@@ -31,6 +31,6 @@ export function bnet_id(): string[] {
   return ['alsia', 'bkabite']
 }
 
-export function new_function():string {
+export function new_function(): string {
   return 'new_function'
 }
