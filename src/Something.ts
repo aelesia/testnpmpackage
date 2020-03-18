@@ -30,3 +30,7 @@ export function sj_employees(): string[] {
 export function bnet_id(): string[] {
   return ['alsia', 'bkabite']
 }
+
+export function new_function():string {
+  return 'new_function'
+}
