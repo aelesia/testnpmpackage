@@ -31,6 +31,7 @@
 		"@typescript-eslint/camelcase": "off",
 		"@typescript-eslint/class-name-casing": "off",
 		"@typescript-eslint/ban-ts-ignore": "off",
+    "@typescript-eslint/type-annotation-spacing": "warn",
 		"prettier/prettier": "warn",
 		"prefer-const": "off"
 	}
